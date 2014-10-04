@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/ApigeeCorporation/Source/360/volos-pgsql',
+5 verbose install   [ 'lodash', 'pg', 'q', 'debug', 'volos-connectors-common' ] ]
+6 info preinstall volos-pgsql@0.0.10
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping lodash@^2.4.1 /Users/ApigeeCorporation/Source/360/volos-pgsql
+9 verbose already installed skipping pg@^3.4.0 /Users/ApigeeCorporation/Source/360/volos-pgsql
+10 verbose already installed skipping q@^1.0.1 /Users/ApigeeCorporation/Source/360/volos-pgsql
+11 verbose already installed skipping debug@^2.0.0 /Users/ApigeeCorporation/Source/360/volos-pgsql
+12 verbose cache add [ 'volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master',
+12 verbose cache add   null ]
+13 verbose cache add name=undefined spec="volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master" args=["volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: '#master',
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git',
+14 verbose parsed url   path: 'volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git',
+14 verbose parsed url   href: 'volos-connectors-common@git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master' }
+15 verbose cache add name="volos-connectors-common" spec="git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master" args=["volos-connectors-common","git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master"]
+16 verbose parsed url { protocol: 'git+ssh:',
+16 verbose parsed url   slashes: true,
+16 verbose parsed url   auth: 'git',
+16 verbose parsed url   host: 'revision.eng.wacapps.net',
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: 'revision.eng.wacapps.net',
+16 verbose parsed url   hash: '#master',
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '/apigee360/volos-connectors-common.git',
+16 verbose parsed url   path: '/apigee360/volos-connectors-common.git',
+16 verbose parsed url   href: 'git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#master' }
+17 silly lockFile 31c8b25a-e360-volos-connectors-common-git ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git
+18 verbose lock ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git /Users/ApigeeCorporation/.npm/31c8b25a-e360-volos-connectors-common-git.lock
+19 verbose addRemoteGit [ 'ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git',
+19 verbose addRemoteGit   'master' ]
+20 verbose git clone ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git Cloning into bare repository '/Users/ApigeeCorporation/.npm/_git-remotes/ssh-git-revision-eng-wacapps-net-apigee360-volos-connectors-common-git-31c8b25a'...
+21 verbose git fetch -a origin (ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git)
+22 verbose git rev-list -n1 master 0f0f34bcfd9810c33cf259a477c951aabf854077
+23 verbose resolved git url git+ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git#0f0f34bcfd9810c33cf259a477c951aabf854077
+24 verbose tar unpack /var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz
+25 silly lockFile 6c618cfe--6511176580097526-tmp-tgz-unpack tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz-unpack
+26 verbose lock tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz-unpack /Users/ApigeeCorporation/.npm/6c618cfe--6511176580097526-tmp-tgz-unpack.lock
+27 silly lockFile c35ab8d9-14123-0-6511176580097526-tmp-tgz tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz
+28 verbose lock tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz /Users/ApigeeCorporation/.npm/c35ab8d9-14123-0-6511176580097526-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry
+31 silly gunzTarPerm modified mode [ '', 509, 493 ]
+32 silly gunzTarPerm extractEntry .gitignore
+33 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+34 silly gunzTarPerm extractEntry .npmignore
+35 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+36 silly gunzTarPerm extractEntry LICENSE
+37 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+38 silly gunzTarPerm extractEntry README.md
+39 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+40 silly gunzTarPerm extractEntry lib/
+41 silly gunzTarPerm modified mode [ 'lib/', 509, 493 ]
+42 silly gunzTarPerm extractEntry lib/index.js
+43 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+44 silly gunzTarPerm extractEntry lib/serverBase.js
+45 silly gunzTarPerm modified mode [ 'lib/serverBase.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry lib/sqlServerBase.js
+47 silly gunzTarPerm modified mode [ 'lib/sqlServerBase.js', 436, 420 ]
+48 silly gunzTarPerm extractEntry node_modules/
+49 silly gunzTarPerm modified mode [ 'node_modules/', 509, 493 ]
+50 silly gunzTarPerm extractEntry node_modules/debug/
+51 silly gunzTarPerm modified mode [ 'node_modules/debug/', 509, 493 ]
+52 silly gunzTarPerm extractEntry node_modules/debug/.jshintrc
+53 silly gunzTarPerm modified mode [ 'node_modules/debug/.jshintrc', 436, 420 ]
+54 silly gunzTarPerm extractEntry node_modules/debug/.npmignore
+55 silly gunzTarPerm modified mode [ 'node_modules/debug/.npmignore', 436, 420 ]
+56 silly gunzTarPerm extractEntry node_modules/debug/History.md
+57 silly gunzTarPerm modified mode [ 'node_modules/debug/History.md', 436, 420 ]
+58 silly gunzTarPerm extractEntry node_modules/debug/Makefile
+59 silly gunzTarPerm modified mode [ 'node_modules/debug/Makefile', 436, 420 ]
+60 silly gunzTarPerm extractEntry node_modules/debug/Readme.md
+61 silly gunzTarPerm modified mode [ 'node_modules/debug/Readme.md', 436, 420 ]
+62 silly gunzTarPerm extractEntry node_modules/debug/browser.js
+63 silly gunzTarPerm modified mode [ 'node_modules/debug/browser.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry node_modules/debug/component.json
+65 silly gunzTarPerm modified mode [ 'node_modules/debug/component.json', 436, 420 ]
+66 silly gunzTarPerm extractEntry node_modules/debug/debug.js
+67 silly gunzTarPerm modified mode [ 'node_modules/debug/debug.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry node_modules/debug/node.js
+69 silly gunzTarPerm modified mode [ 'node_modules/debug/node.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry node_modules/debug/node_modules/
+71 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/', 509, 493 ]
+72 silly gunzTarPerm extractEntry node_modules/debug/node_modules/ms/
+73 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/ms/', 509, 493 ]
+74 silly gunzTarPerm extractEntry node_modules/debug/node_modules/ms/.npmignore
+75 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/ms/.npmignore', 436, 420 ]
+76 silly gunzTarPerm extractEntry node_modules/debug/node_modules/ms/README.md
+77 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/ms/README.md', 436, 420 ]
+78 silly gunzTarPerm extractEntry node_modules/debug/node_modules/ms/index.js
+79 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/ms/index.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry node_modules/debug/node_modules/ms/package.json
+81 silly gunzTarPerm modified mode [ 'node_modules/debug/node_modules/ms/package.json', 436, 420 ]
+82 silly gunzTarPerm extractEntry node_modules/debug/package.json
+83 silly gunzTarPerm modified mode [ 'node_modules/debug/package.json', 436, 420 ]
+84 silly gunzTarPerm extractEntry node_modules/lodash/
+85 silly gunzTarPerm modified mode [ 'node_modules/lodash/', 509, 493 ]
+86 silly gunzTarPerm extractEntry node_modules/lodash/LICENSE.txt
+87 silly gunzTarPerm modified mode [ 'node_modules/lodash/LICENSE.txt', 436, 420 ]
+88 silly gunzTarPerm extractEntry node_modules/lodash/README.md
+89 silly gunzTarPerm modified mode [ 'node_modules/lodash/README.md', 436, 420 ]
+90 silly gunzTarPerm extractEntry node_modules/lodash/dist/
+91 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/', 509, 493 ]
+92 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.compat.js
+93 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.compat.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.compat.min.js
+95 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.compat.min.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.js
+97 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.min.js
+99 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.min.js', 436, 420 ]
+100 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.underscore.js
+101 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.underscore.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry node_modules/lodash/dist/lodash.underscore.min.js
+103 silly gunzTarPerm modified mode [ 'node_modules/lodash/dist/lodash.underscore.min.js', 436, 420 ]
+104 silly gunzTarPerm extractEntry node_modules/lodash/lodash.js
+105 silly gunzTarPerm modified mode [ 'node_modules/lodash/lodash.js', 436, 420 ]
+106 silly gunzTarPerm extractEntry node_modules/lodash/package.json
+107 silly gunzTarPerm modified mode [ 'node_modules/lodash/package.json', 436, 420 ]
+108 silly gunzTarPerm extractEntry node_modules/q/
+109 silly gunzTarPerm modified mode [ 'node_modules/q/', 509, 493 ]
+110 silly gunzTarPerm extractEntry node_modules/q/CONTRIBUTING.md
+111 silly gunzTarPerm modified mode [ 'node_modules/q/CONTRIBUTING.md', 436, 420 ]
+112 silly gunzTarPerm extractEntry node_modules/q/LICENSE
+113 silly gunzTarPerm modified mode [ 'node_modules/q/LICENSE', 436, 420 ]
+114 silly gunzTarPerm extractEntry node_modules/q/README.md
+115 silly gunzTarPerm modified mode [ 'node_modules/q/README.md', 436, 420 ]
+116 silly gunzTarPerm extractEntry node_modules/q/benchmark/
+117 silly gunzTarPerm modified mode [ 'node_modules/q/benchmark/', 509, 493 ]
+118 silly gunzTarPerm extractEntry node_modules/q/benchmark/compare-with-callbacks.js
+119 silly gunzTarPerm modified mode [ 'node_modules/q/benchmark/compare-with-callbacks.js',
+119 silly gunzTarPerm   436,
+119 silly gunzTarPerm   420 ]
+120 silly gunzTarPerm extractEntry node_modules/q/benchmark/scenarios.js
+121 silly gunzTarPerm modified mode [ 'node_modules/q/benchmark/scenarios.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry node_modules/q/package.json
+123 silly gunzTarPerm modified mode [ 'node_modules/q/package.json', 436, 420 ]
+124 silly gunzTarPerm extractEntry node_modules/q/q.js
+125 silly gunzTarPerm modified mode [ 'node_modules/q/q.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry node_modules/q/queue.js
+127 silly gunzTarPerm modified mode [ 'node_modules/q/queue.js', 436, 420 ]
+128 silly gunzTarPerm extractEntry package.json
+129 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+130 silly lockFile 6c618cfe--6511176580097526-tmp-tgz-unpack tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz-unpack
+131 silly lockFile 6c618cfe--6511176580097526-tmp-tgz-unpack tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz-unpack
+132 silly lockFile c35ab8d9-14123-0-6511176580097526-tmp-tgz tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz
+133 silly lockFile c35ab8d9-14123-0-6511176580097526-tmp-tgz tar:///var/folders/_8/f66f4kvs04b6yj1nfvg3789m0000gp/T/npm-39325-9izuC38Z/1412397314123-0.6511176580097526/tmp.tgz
+134 silly lockFile 31c8b25a-e360-volos-connectors-common-git ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git
+135 silly lockFile 31c8b25a-e360-volos-connectors-common-git ssh://git@revision.eng.wacapps.net/apigee360/volos-connectors-common.git
+136 error Error: EACCES, mkdir '/Users/ApigeeCorporation/.npm/volos-connectors-common/0.0.9'
+136 error  { [Error: EACCES, mkdir '/Users/ApigeeCorporation/.npm/volos-connectors-common/0.0.9']
+136 error   errno: 3,
+136 error   code: 'EACCES',
+136 error   path: '/Users/ApigeeCorporation/.npm/volos-connectors-common/0.0.9',
+136 error   parent: 'volos-pgsql' }
+137 error Please try running this command again as root/Administrator.
+138 error System Darwin 14.0.0
+139 error command "node" "/usr/local/bin/npm" "install"
+140 error cwd /Users/ApigeeCorporation/Source/360/volos-pgsql
+141 error node -v v0.10.32
+142 error npm -v 1.4.28
+143 error path /Users/ApigeeCorporation/.npm/volos-connectors-common/0.0.9
+144 error code EACCES
+145 error errno 3
+146 error stack Error: EACCES, mkdir '/Users/ApigeeCorporation/.npm/volos-connectors-common/0.0.9'
+147 verbose exit [ 3, true ]

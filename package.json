@@ -1,0 +1,31 @@
+{
+  "name": "volos-pgsql",
+  "version": "0.0.10",
+  "description": "Volos PostgreSQL Database Connector",
+  "main": "pgConnector.js",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "pg": "^3.4.0",
+    "q": "^1.0.1",
+    "debug":"^2.0.0",
+    "volos-connectors-common": "git+ssh://git@revision.eng.wacapps.net/360/volos-connectors-common.git#master"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apigee-127/volos-connectors.git"
+  },
+  "keywords": [
+    "pg",
+    "postgres"
+  ],
+  "author": "Randy Solton <rsolton@apigee.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apigee-127/volos-connectors/issues"
+  },
+  "homepage": "https://github.com/apigee-127/volos-connectors"
+}
