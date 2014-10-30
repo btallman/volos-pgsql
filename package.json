@@ -8,7 +8,7 @@
     "pg": "git+https://git@github.com/btallman/node-postgres.git#master",
     "q": "^1.0.1",
     "debug":"^2.0.0",
-    "volos-connectors-common": "git+ssh://git@revision.eng.wacapps.net/360/volos-connectors-common.git#master"
+    "volos-connectors-common": "git+https://git@github.com/btallman/volos-connectors-common.git#master"
   },
   "devDependencies": {},
   "scripts": {
